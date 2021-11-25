@@ -126,16 +126,7 @@ header ul li a:hover{
     padding: 10px;
 }
 
-.main-footer{
-    display: flex;
-    margin-top: 300px;
-    justify-content: space-between;
-    text-align: justify;
-    font-family: 'Zen Kurenaido', sans-serif;
-    text-decoration: none;
-    padding: 20px;
-    background: #3F51B5
-}
+
 
 .container{
     min-height: 80vh;
@@ -326,13 +317,12 @@ header ul li a:hover{
     .info{
         padding: 20px;
     }
-}
-
-@media (max-width: 400px){
-    .container{
-        padding: 20px;
+    .Background img {
+        width: 350px;
     }
 }
+
+
 
 .subtitulo {
     display: flex;
@@ -351,7 +341,7 @@ h2{
     display: flex;
     position: relative;
     width: 100%;
-    height: 250px;
+    
     box-shadow:15px 0 35px rgba(0, 0, 0, 0.1),
     0 -15px 35px rgba(0, 0, 0, 0.1),
     0 15px 35px rgba(0, 0, 0, 0.1);
@@ -368,33 +358,12 @@ body{
     background-color: #C5CAE9;
 }
 
-
-
-
-.main-footer ul li a{
-    text-decoration: none;
-    color: white;
-}
-.fomulario{
-    padding: 0px 50px;
-    color: white;
-}
-h5{
-    color: white;
-}
-.main-footer ul li {
-    text-decoration: none;
-    color: white;
-    list-style-type:none
-}
-.main-footer ul i{
-    text-decoration: none;
-    color: white;
+@media screen and (max-width: 900px){
+    .fotoabajo{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
 }
 
-.logobot
-{
-    background-color: #C5CAE9;
-    padding: 10px;
-    border-radius: 5px;
-}

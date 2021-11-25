@@ -15,27 +15,32 @@
     <header class="main-header">
 
     <div class="primero">
-        <div class="Logo">
-            <a href="/"><img src="images/este_si3.png" width="150" alt="LogoMPC"></a>
-        </div>
+        
+            <div class="Logo">
+                <a href="/"><img src="images/este_si3.png" width="150" alt="LogoMPC"></a>
+            </div>
 
 
-        <div class="titulo">
-            <h1 >Bienvenidos a MPC</h1>
-        </div>
+            <div class="titulo">
+                <h1 >Bienvenidos a MPC</h1>
+            </div>
+        
 
-        <div class="icono">
-            <a href="/login.html"><i class="fas fa-user-circle"></i></a>
-            <a href="/productCart.html"><i class="fas fa-shopping-cart"></i></a>
+        <div class="inicio">
+            <div class="user-cirlcle" ><a href="/login.html"><i class="fas fa-user-circle"></i></a></div>
+            <div class="carrito"><a href="/productCart.html"><i class="fas fa-shopping-cart"></i></a></div>
         </div>
 
     </div>
 
     <div class="segundo">
-        <div class="form" action="#" method="GET">
-            <div class="input">Buscar productos</div>
-            <div class="submit"><i class="fa fa-search"></i></div>
-        </div>
+        <form  class="form" action="#" method="GET">
+                    
+            <input class="la-bara" type="text" name="barra" placeholder="Buscar productos, marcas">
+            
+            <button class="submitt" type="submit" name="barra"><i class="fa fa-search"></i></button>
+            
+        </form>
     </div>
 
 
@@ -50,6 +55,10 @@
             </ul>
             </div>
         </nav>
+
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
 
     </header>
 
