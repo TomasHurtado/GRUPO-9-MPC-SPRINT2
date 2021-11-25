@@ -1,2 +1,2 @@
-##Retrospectiva 
+# Retrospectiva 
 Sentimos que trabajamos en equipo y dibidir bien las tareas, gracias a ello todos pudimos completar nuestras tareas asignadas, a la hora de diseñar los wireframes pasamos por alto algunas pequeñas funcionalidades que serian importante a la hora de hacer la pagina web, deberias ser mas criticos y ponernos en el lugar del usuario para saber que es lo que le gustaria,debemos ser mas estrictos con nuestro equipo a la hora de trabajar.
